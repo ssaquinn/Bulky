@@ -35,29 +35,7 @@ public class HomeController : Controller
         return View();
     }
 
-    // PUT IN A DIFFERENT PROGRAM
-    //public ViewResult Details()
-    //{
-    //    ViewBag.Title = "Student Details Page";
-    //    ViewData["Header"] = "Student Details";
-    //    Student student = new Student()
-    //    {
-    //        StudentId = 101,
-    //        Name = "James",
-    //        Branch = "CSE",
-    //        Section = "A",
-    //        Gender = "Male"
-    //    };
-    //    ViewBag.Student = student;
-    //    return View(student);
-    //}
 
-    //public IActionResult Index()
-    //{
-    //    TempData["Name"] = "Sarah";
-    //    TempData["Role"] = "Loser";
-    //    return View();
-    //}
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
